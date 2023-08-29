@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #c0392b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+}
+
+nav label {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav input[type="checkbox"] {
+    display: none;
+}
+
+nav input[type="checkbox"]:checked ~ #nav-menu {
+    display: block;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.destaques {
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: calc(50% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sobre-nos {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #c0392b;
+    color: #fff;
+}
